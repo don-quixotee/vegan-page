@@ -1,601 +1,675 @@
-                        body {
-                            font-family: 'Poppins', sans-serif;
-                            margin: 0;
-                        }
-                        
-                        nav {
-                            background-color: white;
-                            width: 100%;
-                            height: 77px;
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center;
-                            padding: 0 28px;
-                            box-sizing: border-box;
-                            position: fixed;
-                        }
-                        
-                        #logo {
-                            width: 40px;
-                        }
-                        
-                        .menu-item {
-                            color: black;
-                            font-weight: 600;
-                            font-size: 14px;
-                            margin-right: 24px;
-                            cursor: pointer;
-                        }
-                        
-                        .menu-item i {
-                            padding-left: 4px;
-                        }
-                        
-                        .demo-Dropdown {
-                            display: inline-block;
-                            position: relative;
-                        }
-                        
-                        .demo-Dropdown:hover .dropdownList {
-                            display: block;
-                        }
-                        
-                        .dropdownList {
-                            width: 150px;
-                            border-top: 2px solid rgb(170, 210, 54);
-                            padding: 20px;
-                            position: absolute;
-                            right: 24px;
-                            background-color: white;
-                            box-shadow: 0 2px 5px #ccc;
-                            display: none;
-                        }
-                        
-                        .dropdownList a {
-                            text-decoration: none;
-                            display: block;
-                            border-bottom: 1px solid #ccc;
-                            padding: 4px;
-                            cursor: pointer;
-                        }
-                        /* menu button */
-                        
-                        .primary-button {
-                            font-size: 12px;
-                            font-weight: 600;
-                            color: white;
-                            background-color: #AAD236;
-                            padding: 9px 34px;
-                            border: 0;
-                            border-radius: 4px;
-                            margin-right: 16px;
-                            cursor: pointer;
-                        }
-                        /*  landing section */
-                        
-                        #section1 {
-                            width: 100%;
-                            height: 100vh;
-                        }
-                        
-                        #main-text {
-                            align-items: center;
-                            height: 100%;
-                            width: 100%;
-                            display: flex;
-                            justify-content: center;
-                            flex-direction: column;
-                        }
-                        
-                        #main-text p {
-                            width: 100%;
-                            max-width: 1100px;
-                            font-size: 14px;
-                            letter-spacing: 0.5px;
-                            font-weight: 400;
-                            color: #8b8b99;
-                            text-align: center;
-                            padding-top: 32px;
-                        }
-                        
-                        #main-text h1 {
-                            width: 100%;
-                            max-width: 1100px;
-                            font-size: 44px;
-                            font-weight: 600;
-                            letter-spacing: 8.8px;
-                            line-height: 1.2;
-                            text-align: center;
-                            margin: 0;
-                        }
-                        
-                        header {
-                            width: 100%;
-                            height: 100vh;
-                            background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png');
-                            background-position: left;
-                            background-size: cover;
-                        }
-                        /* footer decoration */
-                        
-                        footer {
-                            background-color: #232323;
-                            color: white;
-                            font-size: 14px;
-                            letter-spacing: 0.5px;
-                            text-align: center;
-                            padding: 30px 0px;
-                        }
-                        /* step box  */
-                        
-                        #step-section {
-                            width: 100%;
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: stretch;
-                            flex-wrap: wrap;
-                        }
-                        
-                        #step1 {
-                            background-color: #5acda6;
-                        }
-                        
-                        .stepbox {
-                            width: 25%;
-                            padding: 112px 48px;
-                            text-align: center;
-                            color: white;
-                            box-sizing: border-box;
-                        }
-                        
-                        #step2 {
-                            background-color: #91ac41;
-                        }
-                        
-                        #step3 {
-                            background-color: #e4b476;
-                        }
-                        
-                        #step4 {
-                            background-color: #f69dad;
-                        }
-                        /* .stepbox i{
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+
+
+nav {
+    background-color: white;
+    width: 100%;
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 28px;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+#logo {
+    width: 40px;
+}
+
+.menu-item {
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+
+.menu-item i {
+    padding-left: 4px;
+}
+
+
+.demo-Dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.demo-Dropdown:hover .dropdownList {
+    display: block;
+}
+
+
+
+.dropdownList {
+    width: 150px;
+    border-top: 2px solid rgb(170, 210, 54);
+    padding: 20px;
+    position: absolute;
+    right: 24px;
+    background-color: white;
+    box-shadow: 0 2px 5px #ccc;
+    display: none;
+}
+
+
+.dropdownList a {
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 4px;
+    cursor: pointer;
+}
+
+/* menu button */
+
+.primary-button {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color:#AAD236;
+    padding: 9px 34px;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+/*  landing section */
+
+
+
+#section1 {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+#main-text {
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+
+#main-text p {
+    width: 100%;
+    max-width: 1100px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+    text-align: center;
+    padding-top: 32px;
+}
+
+
+
+#main-text h1 {
+    width: 100%;
+    max-width: 1100px;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png');
+    background-position: left;
+    background-size: cover;
+}
+
+
+/* footer decoration */
+
+footer {
+    background-color: #232323;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+/* step box  */
+
+#step-section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: wrap;
+}
+
+
+#step1{
+    background-color: #5acda6;
+}
+
+
+.stepbox{
+    width: 25%;
+    padding: 112px 48px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+}
+
+
+#step2{
+    background-color: #91ac41;
+
+}
+
+
+#step3{
+    background-color: #e4b476;    
+
+}
+
+
+#step4{
+    background-color: #f69dad;
+
+}
+
+/* .stepbox i{
     font-size: 100px;
     transition: all 0.5s;
 } */
-                        
-                        .stepbox h3 {
-                            font-weight: 600;
-                            font-size: 24px;
-                        }
-                        
-                        .stepbox p {
-                            font-size: 14px;
-                            letter-spacing: 0.5px;
-                            line-height: 1.6;
-                            margin-top: 0;
-                        }
-                        
-                        .stepbox:hover i {
-                            transform: scale(1.1, 1.1);
-                        }
-                        /* store item and heading  */
-                        
-                        #section3 {
-                            width: 100%;
-                            background-color: #f7eee2;
-                            padding-top: 75px;
-                            padding-bottom: 75px;
-                            text-align: center;
-                        }
-                        
-                        #section3>h3 {
-                            font-size: 44px;
-                            font-weight: 600;
-                            margin: 0;
-                            margin-bottom: 8px;
-                        }
-                        
-                        .fresh-food {
-                            color: #91ac41;
-                            font-size: 24px;
-                            font-family: 'Caveat', cursive;
-                            margin: 0;
-                            margin-top: 35px;
-                        }
-                        
-                        #store-box {
-                            width: 100%;
-                            max-width: 1140px;
-                            display: flex;
-                            justify-content: stretch;
-                            margin: 0 auto;
-                            flex-wrap: wrap;
-                            flex-direction: row;
-                        }
-                        
-                        .store-icons {
-                            display: inline-block;
-                            background-color: #e3b375;
-                            border-radius: 50%;
-                            padding: 40px;
-                            color: white;
-                            transition: all 0.3s;
-                        }
-                        
-                        .store-item {
-                            width: 25%;
-                            text-align: center;
-                            padding: 24px;
-                            box-sizing: border-box;
-                        }
-                        
-                        #store-desc {
-                            font-size: 16px;
-                            font-weight: 500;
-                            margin: 0;
-                            color: #8b8b99;
-                            letter-spacing: 0.5px;
-                            margin-bottom: 55px;
-                        }
-                        
-                        .store-item:hover i {
-                            transform: scale(1.1, 1.1);
-                        }
-                        /* styling of store intem and heafing ends here */
-                        /*  */
-                        /*  */
-                        /*  
+
+
+.stepbox h3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+.stepbox p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    margin-top: 0;
+}
+
+
+
+.stepbox:hover i{
+    transform: scale(1.1,1.1);
+
+}
+
+
+
+
+
+/* store item and heading  */
+
+#section3{
+        width: 100%;
+        background-color: #f7eee2;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        text-align: center;
+    
+}
+#section3 > h3{
+        font-size: 44px;
+        font-weight: 600;
+        margin: 0;
+        margin-bottom: 8px;
+    
+
+}
+
+
+.fresh-food {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+
+#store-box{
+
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: stretch;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+.store-icons{
+    display: inline-block;
+    background-color: #e3b375;
+    border-radius: 50%;
+    padding: 40px;
+    color: white;
+    transition: all 0.3s;
+    
+}
+.store-item 
+{
+    width: 25%;
+    text-align: center;
+    padding: 24px;
+    box-sizing: border-box;
+
+
+}
+
+#store-desc{
+    font-size: 16px;
+font-weight: 500;
+margin: 0;
+color: #8b8b99;
+letter-spacing: 0.5px;
+margin-bottom: 55px;
+}
+
+.store-item:hover i{
+    
+        transform: scale(1.1,1.1);
+    
+    
+}
+
+
+
+
+
+
+/* styling of store intem and heafing ends here */
+/*  */
+/*  */
+/*  
 
 styling of testimonial section start here */
-                        
-                        #section4 {
-                            width: 100%;
-                            padding-top: 75px;
-                            padding-bottom: 75px;
-                            text-align: center;
-                        }
-                        
-                        #section4>h3 {
-                            font-size: 44px;
-                            font-weight: 600;
-                            margin: 0;
-                            margin-bottom: 8px;
-                        }
-                        
-                        #testimonials-box {
-                            width: 100%;
-                            margin: 0 auto;
-                            display: flex;
-                            align-items: center;
-                            flex-direction: row;
-                            flex-wrap: wrap;
-                        }
-                        
-                        .testimonial-item {
-                            width: 25%;
-                            text-align: center;
-                            background-color: #f5f6fb;
-                            padding: 40px 30px;
-                            margin: 16px;
-                            border-top-left-radius: 45px;
-                            border-bottom-left-radius: 45px;
-                            border-bottom-right-radius: 45px;
-                            transition: box-shadow 0.3s;
-                        }
-                        
-                        .testimonial-image {
-                            width: 120px;
-                            border-radius: 50%;
-                        }
-                        /* subscribe section */
-                        
-                        #section5 {
-                            display: flex;
-                            justify-content: stretch;
-                            flex-wrap: wrap;
-                            flex-direction: row;
-                        }
-                        
-                        #left-section {
-                            width: 67%;
-                            display: inline-block;
-                            margin: 0;
-                        }
-                        
-                        #left-section img {
-                            width: 100%;
-                        }
-                        
-                        #right-section {
-                            width: 33.33%;
-                            margin: 0;
-                            display: inline-block;
-                            background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png');
-                            background-position: left;
-                            background-size: cover;
-                        }
-                        
-                        #right-section #text-wrapper {
-                            margin: 115px;
-                        }
-                        
-                        #right-section #text-wrapper h3 {
-                            font-size: 44px;
-                            font-weight: 600;
-                            margin: 0 0 8px;
-                        }
-                        
-                        #right-section #text-wrapper p {
-                            color: #8b8b99;
-                            font-size: 16px;
-                            letter-spacing: 0.5;
-                            line-height: 1.6;
-                            margin: 0;
-                        }
-                        
-                        #subscribe-email {
-                            width: 100%;
-                            box-sizing: border-box;
-                            border: 0;
-                            border-radius: 4px;
-                            font-weight: 500;
-                            background-color: white;
-                            padding: 12px;
-                            color: #8b8b99;
-                            font-size: 16px;
-                            margin-top: 60px;
-                            display: block;
-                        }
-                        
-                        #subscribe-btn {
-                            background-color: #f69dad;
-                            padding: 16px 42px;
-                            border-radius: 4px;
-                            cursor: pointer;
-                            color: white;
-                            border: 0;
-                            font-size: 14px;
-                            font-weight: 600;
-                            text-transform: uppercase;
-                            margin-top: 16px;
-                        }
-                        
-                        #subscribe-btn:hover {
-                            color: #f69dad;
-                            border: 1px solid #f69dad;
-                            background-color: transparent;
-                        }
-                        /* stat section design */
-                        
-                        #stats-section {
-                            width: 100%;
-                            background-color: #f6fcfa;
-                        }
-                        
-                        #stats-wrapper {
-                            width: 100%;
-                            max-width: 1140px;
-                            padding: 100px 0;
-                            margin: 0 auto;
-                            text-align: center;
-                            display: flex;
-                            justify-content: stretch;
-                        }
-                        
-                        .stats-item {
-                            width: 25%;
-                            padding: 0 64px;
-                        }
-                        
-                        .stats-item h3 {
-                            font-size: 44px;
-                            font-weight: 600;
-                            margin: 0;
-                        }
-                        
-                        .stats-item p {
-                            color: #57e3b5;
-                            font-size: 14px;
-                            letter-spacing: 0.5px;
-                            font-style: italic;
-                            margin: 0;
-                        }
-                        /* STATS SECTION STYLES END */
-                        /* VIDEO SECTION STYLES START */
-                        
-                        #video-section h3 {
-                            color: #8b8b99;
-                            font-size: 44px;
-                            font-weight: 400;
-                        }
-                        
-                        #video-section>div {
-                            width: 100%;
-                            max-width: 1140px;
-                            margin: 0 auto;
-                            text-align: center;
-                        }
-                        
-                        #line-separator {
-                            width: 96px;
-                            display: inline-block;
-                            height: 1px;
-                            background-color: #e4b476;
-                            margin-bottom: 36px;
-                        }
-                        
-                        #video-section iframe {
-                            width: 100%;
-                            height: 425px;
-                        }
-                        /* VIDEO SECTION STYLES END */
-                        /* ADDRESS SECTION STYLES START */
-                        
-                        #address-wrapper {
-                            width: 100%;
-                            max-width: 1140px;
-                            margin: 0 auto;
-                            display: flex;
-                            justify-content: space-between;
-                            padding: 100px 0;
-                        }
-                        
-                        #address-wrapper>div {
-                            width: 50%;
-                        }
-                        
-                        #address-wrapper>div:last-of-type {
-                            width: 40%;
-                        }
-                        
-                        .green-heading {
-                            color: #91ac41;
-                            font-size: 24px;
-                            font-family: 'Caveat', cursive;
-                            margin: 0;
-                            margin-top: 35px;
-                        }
-                        
-                        .section-heading {
-                            font-size: 600;
-                            font-size: 44px;
-                            margin: 0;
-                        }
-                        
-                        .section-description {
-                            font-size: 16px;
-                            font-weight: 400;
-                            color: #8b8b99;
-                            letter-spacing: 0.5px;
-                        }
-                        
-                        .address-heading {
-                            font-size: 24px;
-                            font-weight: 600;
-                            margin: 0;
-                            margin-top: 32px;
-                        }
-                        
-                        .address-lines {
-                            font-size: 16px;
-                            font-weight: 400;
-                            color: #8b8b99;
-                            letter-spacing: 0.5px;
-                            line-height: 2;
-                            margin: 0;
-                        }
-                        
-                        .input-box {
-                            width: 100%;
-                            padding: 16px;
-                            font-size: 16px;
-                            color: #8b8b99;
-                            border-radius: 6px;
-                            border: 1px solid #e5e6ec;
-                            margin-bottom: 16px;
-                            box-sizing: border-box;
-                        }
-                        
-                        #btn-submit {
-                            font-size: 16px;
-                        }
-                        /* responsive design */
-                        
-                        @media screen and (max-width: 900px) {
-                            .stepbox {
-                                flex: 50%;
-                            }
-                        }
-                        
-                        @media screen and (max-width:900px) {
-                            .store-item {
-                                flex: 50%;
-                            }
-                            .testimonial-item {
-                                flex: 50%;
-                            }
-                        }
-                        
-                        @media screen and (max-width: 500px) {
-                            .stepbox {
-                                flex: 100%;
-                            }
-                            .testimonial-item {
-                                flex: 100%;
-                            }
-                        }
-                        
-                        @media screen and (max-width: 500px) {
-                            .store-item {
-                                flex: 100%;
-                            }
-                        }
-                        
-                        @media screen and (max-width:900px) {
-                            #right-section #text-wrapper {
-                                margin: 16px;
-                            }
-                            #right-section #text-wrapper h3 {
-                                font-size: 28px;
-                            }
-                            #left-section {
-                                width: 50%;
-                            }
-                            #right-section {
-                                width: 50%;
-                            }
-                            #stats-wrapper {
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-                            }
-                            #stats-item {
-                                width: 50%;
-                            }
-                            #address-wrapper {
-                                flex-direction: column;
-                                justify-content: start;
-                                align-items: center;
-                                padding: 16px;
-                                padding-top: 0;
-                                box-sizing: border-box;
-                            }
-                            #address-wrapper>div {
-                                width: 50%;
-                            }
-                            #address-wrapper>div:last-of-type {
-                                width: 50%;
-                            }
-                        }
-                        
-                        @media screen and (max-width: 500px) {
-                            #left-section {
-                                width: 100%;
-                            }
-                            #right-section {
-                                width: 100%;
-                            }
-                            #stats-wrapper {
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-                            }
-                            #stats-item {
-                                width: 100%;
-                            }
-                            #address-wrapper {
-                                flex-direction: column;
-                                justify-content: start;
-                                align-items: center;
-                                padding: 16px;
-                                padding-top: 0;
-                                box-sizing: border-box;
-                            }
-                            #address-wrapper>div {
-                                width: 100%;
-                            }
-                            #address-wrapper>div:last-of-type {
-                                width: 100%;
-                            }
-                        }
+#section4 {
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+#section4 > h3{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 8px;
+
+
+}
+
+#testimonials-box{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.testimonial-item{
+    width: 25%;
+    text-align: center;
+    background-color: #f5f6fb;
+    padding: 40px 30px;
+    margin: 16px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    transition: box-shadow 0.3s;
+
+}
+
+
+.testimonial-image{
+    width:120px;
+    border-radius: 50%;
+}
+
+
+/* subscribe section */
+
+ 
+#follow-section {
+    display: flex;
+    justify-content: stretch;
+}
+
+#left-section {
+    width: 67%;
+    display: inline-block;
+    margin: 0;
+}
+
+#left-section img {
+    width: 100%;
+}
+
+#right-section {
+    width: 33.33%;
+    margin: 0;
+    display: inline-block;
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png');
+    background-position: left;
+    background-size: cover;
+}
+
+#right-section #text-wrapper {
+    margin: 115px;
+}
+
+#right-section #text-wrapper h3 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+
+#right-section #text-wrapper p {
+    color: #8b8b99;
+    font-size: 16px;
+    letter-spacing: 0.5;
+    line-height: 1.6;
+    margin: 0;
+}
+
+#subscribe-email {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: white;
+    padding: 12px;
+    color: #8b8b99;
+    font-size: 16px;
+    margin-top: 60px;
+    display: block;
+}
+
+#subscribe-btn {
+    background-color: #f69dad;
+    padding: 16px 42px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+#subscribe-btn:hover {
+    color: #f69dad;
+    border: 1px solid #f69dad;
+    background-color: transparent;
+}
+
+
+
+
+/* stats section */
+#stats-section {
+    width: 100%;
+    background-color: #f6fcfa;
+}
+
+#stats-wrapper {
+    width: 100%;
+    max-width: 1140px;
+    padding: 100px 0;
+    margin: 0 auto;
+    text-align: center;
+
+    display: flex;
+    justify-content: stretch;
+}
+
+.stats-item {
+    width: 25%;
+    padding: 0 64px;
+}
+
+.stats-item h3 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.stats-item p {
+    color: #57e3b5;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+}
+
+
+
+
+/* video section*/
+
+
+#video-section h3 {
+    color: #8b8b99;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+#video-section > div {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#line-separator {
+    width: 96px;
+    display: inline-block;
+    height: 1px;
+    background-color: #e4b476;
+    margin-bottom: 36px;
+}
+
+#video-section iframe {
+    width: 100%;
+    height: 425px;
+}
+
+
+/* contac */
+#address-wrapper {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+#address-wrapper > div {
+    width: 50%;
+}
+
+#address-wrapper > div:last-of-type{
+    width: 40%;
+}
+
+.green-heading {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+
+.section-heading {
+    font-size: 600;
+    font-size: 44px;
+    margin: 0;
+}
+
+.section-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+
+.address-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 32px;
+}
+
+.address-lines {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin: 0;
+}
+
+.input-box {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    color: #8b8b99;
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+#btn-submit {
+    font-size: 16px;
+}
+
+
+
+/* responsive design */
+
+
+@media screen and (max-width: 800px) {
+    .stepbox
+     {
+      flex: 50%;
+    }
+    
+  }
+  @media screen and (max-width:800px){
+      .store-item{
+          flex:50%;
+      }
+
+.testimonial-item{
+    flex:50%;
+}
+  }
+
+
+@media screen and (max-width: 500px){
+    .stepbox {
+      flex: 100%;
+    }
+.testimonial-item{
+    flex:100%;
+
+}
+
+  }
+
+  @media screen and (max-width: 500px){
+    .store-item {
+      flex: 100%;
+    }
+    
+
+
+
+  }
+  @media screen and (max-width:800px)
+  {
+
+    #follow-section {
+        flex-direction: column;
+    }
+    
+    #right-section #text-wrapper {
+        margin: 16px;
+    }
+
+    #right-section #text-wrapper h3 {
+        font-size: 28px;
+    }
+
+    #left-section {
+        width: 100%;
+    }
+
+    #right-section {
+        width: 100%;
+    }
+
+    #stats-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #stats-item {
+        width: 100%;
+    }
+
+    #address-wrapper {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        padding: 16px;
+        padding-top: 0;
+        box-sizing: border-box;
+    }
+
+    #address-wrapper > div {
+        width: 100%;
+    }
+
+    #address-wrapper > div:last-of-type {
+        width: 100%;
+    }
+    
+    
+    
+
+ 
+  }
+
+  
